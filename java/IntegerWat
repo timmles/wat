@@ -1,0 +1,13 @@
+public class IntegerExample {
+
+    public static void main(String[] args) {
+        final Integer a = 3;
+        final Integer b = 3;
+
+        final Integer c = 500;
+        final Integer d = 500;
+
+        System.out.println(a == b);
+        System.out.println(c == d);
+    }
+}
